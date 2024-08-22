@@ -12,6 +12,7 @@ input_file = '/home/ugoo/airflow/web-server-access-log.txt'
 extracted_and_transformed_file = '/home/ugoo/airflow/extracted-data.txt'
 output_file = '/home/ugoo/airflow/result.csv'
 
+# Define the tasks
 def download():
     global input_file
     url = "https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0250EN-SkillsNetwork/labs/Apache%20Airflow/Build%20a%20DAG%20using%20Airflow/web-server-access-log.txt"
@@ -152,6 +153,30 @@ def upload():
         cursor.close()
         conn.close()
 
+def git_push():
+    import subprocess
+    import os
+
+    repo_dir = '/home/ugoo/airflow'  # Path to your Git repository
+
+    try:
+        # Change to the repository directory
+        os.chdir(repo_dir)
+        
+        # Add all changes
+        subprocess.run(['git', 'add', '.'], check=True)
+        
+        # Commit changes with a message
+        subprocess.run(['git', 'commit', '-m', 'Automated commit from Airflow'], check=True)
+        
+        # Push changes to the remote repository
+        subprocess.run(['git', 'push', 'origin', 'master'], check=True)
+        
+        print("Git operations completed successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"Git operation failed: {e}")
+        raise
+
 # Define the DAG default settings
 default_args = {
     'owner': 'Ugoo Ezekoma',
@@ -194,5 +219,11 @@ upload_data = PythonOperator(
     dag=dag,
 )
 
+git_push_data = PythonOperator(
+    task_id='git_push',
+    python_callable=git_push,
+    dag=dag,
+)
+
 # Set task dependencies
-download_data >> extraction_transform_data >> load_data >> upload_data
+download_data >> extraction_transform_data >> load_data >> upload_data >> git_push_data
