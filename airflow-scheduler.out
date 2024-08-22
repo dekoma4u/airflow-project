@@ -17134,3 +17134,5 @@ Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=manual__2024-08-22T22:14
 [[34m2024-08-23T00:31:16.610+0200[0m] {[34mscheduler_job_runner.py:[0m1619} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
 [[34m2024-08-23T00:36:16.641+0200[0m] {[34mscheduler_job_runner.py:[0m1619} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
 [[34m2024-08-23T00:41:16.678+0200[0m] {[34mscheduler_job_runner.py:[0m1619} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-23T00:46:16.712+0200[0m] {[34mscheduler_job_runner.py:[0m1619} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-08-23T00:51:16.747+0200[0m] {[34mscheduler_job_runner.py:[0m1619} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
