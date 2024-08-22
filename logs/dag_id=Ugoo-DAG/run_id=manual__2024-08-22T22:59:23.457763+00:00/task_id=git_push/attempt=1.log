@@ -7,3 +7,8 @@
 [2024-08-23T00:59:36.947+0200] {standard_task_runner.py:88} INFO - Job 1188: Subtask git_push
 [2024-08-23T00:59:36.969+0200] {task_command.py:423} INFO - Running <TaskInstance: Ugoo-DAG.git_push manual__2024-08-22T22:59:23.457763+00:00 [running]> on host Ugoo.
 [2024-08-23T00:59:37.017+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='ugoo@ezekomas.com' AIRFLOW_CTX_DAG_OWNER='Ugoo Ezekoma' AIRFLOW_CTX_DAG_ID='Ugoo-DAG' AIRFLOW_CTX_TASK_ID='git_push' AIRFLOW_CTX_EXECUTION_DATE='2024-08-22T22:59:23.457763+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-22T22:59:23.457763+00:00'
+[2024-08-23T00:59:39.286+0200] {logging_mixin.py:188} INFO - Git operations completed successfully.
+[2024-08-23T00:59:39.286+0200] {python.py:201} INFO - Done. Returned value was: None
+[2024-08-23T00:59:39.289+0200] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Ugoo-DAG, task_id=git_push, execution_date=20240822T225923, start_date=20240822T225936, end_date=20240822T225939
+[2024-08-23T00:59:39.327+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-08-23T00:59:39.336+0200] {taskinstance.py:3281} INFO - 0 downstream tasks scheduled from follow-on schedule check
