@@ -227,3 +227,6 @@ git_push_data = PythonOperator(
 
 # Set task dependencies
 download_data >> extraction_transform_data >> load_data >> upload_data >> git_push_data
+
+
+print("Thank you and weldone")
