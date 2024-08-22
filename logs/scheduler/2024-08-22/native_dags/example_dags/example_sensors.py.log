@@ -1,0 +1,46 @@
+[2024-08-22T21:47:16.848+0200] {processor.py:161} INFO - Started process (PID=19818) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:47:16.849+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-22T21:47:16.849+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:47:16.849+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:47:16.857+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:47:16.923+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:47:16.923+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:47:16.930+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:47:16.930+0200] {dag.py:3820} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-22T21:47:16.949+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.105 seconds
+[2024-08-22T21:48:06.282+0200] {processor.py:161} INFO - Started process (PID=20105) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:48:06.284+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-22T21:48:06.285+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:06.284+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:48:06.294+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:48:06.310+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:06.310+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:48:06.317+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:06.317+0200] {dag.py:3820} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-22T21:48:06.338+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.060 seconds
+[2024-08-22T21:48:53.127+0200] {processor.py:161} INFO - Started process (PID=20350) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:48:53.129+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-22T21:48:53.130+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:53.129+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:48:53.137+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:48:53.153+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:53.153+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:48:53.162+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:53.162+0200] {dag.py:3820} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-22T21:48:53.188+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.064 seconds
+[2024-08-22T21:49:46.916+0200] {processor.py:161} INFO - Started process (PID=20626) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:49:46.919+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-22T21:49:46.920+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:49:46.919+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:49:46.928+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:49:46.944+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:49:46.944+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:49:47.047+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:49:47.046+0200] {dag.py:3820} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-22T21:49:47.064+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.151 seconds
+[2024-08-22T21:50:35.453+0200] {processor.py:161} INFO - Started process (PID=20871) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:50:35.455+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-22T21:50:35.456+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:35.455+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:50:35.467+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:50:35.565+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:35.563+0200] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_sensors
+[2024-08-22T21:50:35.579+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:35.579+0200] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_sensors
+[2024-08-22T21:50:35.593+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:35.593+0200] {override.py:1769} INFO - Created Permission View: can read on DAG:example_sensors
+[2024-08-22T21:50:35.594+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:35.594+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:50:35.605+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:35.605+0200] {dag.py:3055} INFO - Creating ORM DAG for example_sensors
+[2024-08-22T21:50:35.605+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:35.605+0200] {dag.py:3820} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-22T21:50:35.625+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.176 seconds
+[2024-08-22T21:51:17.535+0200] {processor.py:161} INFO - Started process (PID=21192) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:51:17.537+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2024-08-22T21:51:17.539+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:51:17.538+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:51:17.549+0200] {processor.py:840} INFO - DAG(s) 'example_sensors' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2024-08-22T21:51:17.562+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:51:17.562+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:51:17.569+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:51:17.569+0200] {dag.py:3820} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2024-08-22T21:51:17.586+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.055 seconds

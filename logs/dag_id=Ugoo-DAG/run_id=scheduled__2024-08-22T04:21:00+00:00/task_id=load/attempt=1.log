@@ -1,0 +1,14 @@
+[2024-08-22T23:33:57.107+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Ugoo-DAG.load scheduled__2024-08-22T04:21:00+00:00 [queued]>
+[2024-08-22T23:33:57.111+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Ugoo-DAG.load scheduled__2024-08-22T04:21:00+00:00 [queued]>
+[2024-08-22T23:33:57.111+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2024-08-22T23:33:57.122+0200] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): load> on 2024-08-22 04:21:00+00:00
+[2024-08-22T23:33:57.124+0200] {standard_task_runner.py:60} INFO - Started process 48506 to run task
+[2024-08-22T23:33:57.126+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'load', 'scheduled__2024-08-22T04:21:00+00:00', '--job-id', '910', '--raw', '--subdir', 'DAGS_FOLDER/datadownload.py', '--cfg-path', '/tmp/tmp5aa51i31']
+[2024-08-22T23:33:57.130+0200] {standard_task_runner.py:88} INFO - Job 910: Subtask load
+[2024-08-22T23:33:57.155+0200] {task_command.py:423} INFO - Running <TaskInstance: Ugoo-DAG.load scheduled__2024-08-22T04:21:00+00:00 [running]> on host Ugoo.
+[2024-08-22T23:33:57.205+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='ugoo@ezekomas.com' AIRFLOW_CTX_DAG_OWNER='Ugoo Ezekoma' AIRFLOW_CTX_DAG_ID='Ugoo-DAG' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2024-08-22T04:21:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-08-22T04:21:00+00:00'
+[2024-08-22T23:33:57.205+0200] {logging_mixin.py:188} INFO - Data loaded successfully into CSV: /home/ugoo/airflow/result.csv
+[2024-08-22T23:33:57.206+0200] {python.py:201} INFO - Done. Returned value was: None
+[2024-08-22T23:33:57.208+0200] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Ugoo-DAG, task_id=load, execution_date=20240822T042100, start_date=20240822T213357, end_date=20240822T213357
+[2024-08-22T23:33:57.259+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-08-22T23:33:57.270+0200] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,20 @@
+[2024-08-22T21:47:47.212+0200] {processor.py:161} INFO - Started process (PID=20000) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:47:47.213+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-08-22T21:47:47.214+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:47:47.214+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:47:47.216+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:47:47.224+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.014 seconds
+[2024-08-22T21:48:42.598+0200] {processor.py:161} INFO - Started process (PID=20298) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:48:42.601+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-08-22T21:48:42.602+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:42.602+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:48:42.604+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:48:42.613+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.018 seconds
+[2024-08-22T21:49:34.608+0200] {processor.py:161} INFO - Started process (PID=20566) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:49:34.610+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-08-22T21:49:34.611+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:49:34.610+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:49:34.615+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:49:34.626+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.021 seconds
+[2024-08-22T21:50:47.313+0200] {processor.py:161} INFO - Started process (PID=20936) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:50:47.314+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py for tasks to queue
+[2024-08-22T21:50:47.315+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:47.314+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:50:47.317+0200] {processor.py:842} WARNING - No viable dags retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py
+[2024-08-22T21:50:47.330+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/plugins/listener_plugin.py took 0.020 seconds

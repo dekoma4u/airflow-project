@@ -1,0 +1,32 @@
+[2024-08-22T21:47:39.264+0200] {processor.py:161} INFO - Started process (PID=19945) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:47:39.265+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-08-22T21:47:39.266+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:47:39.266+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:47:39.273+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:47:39.379+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:47:39.378+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:47:39.398+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:47:39.398+0200] {dag.py:3820} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-08-22T21:47:39.423+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.163 seconds
+[2024-08-22T21:48:35.633+0200] {processor.py:161} INFO - Started process (PID=20257) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:48:35.635+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-08-22T21:48:35.636+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:35.635+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:48:35.641+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:48:35.651+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:35.651+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:48:35.658+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:48:35.658+0200] {dag.py:3820} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-08-22T21:48:35.677+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.047 seconds
+[2024-08-22T21:49:27.668+0200] {processor.py:161} INFO - Started process (PID=20525) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:49:27.670+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-08-22T21:49:27.671+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:49:27.671+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:49:27.677+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:49:27.687+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:49:27.687+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:49:27.695+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:49:27.695+0200] {dag.py:3820} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-08-22T21:49:27.714+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.048 seconds
+[2024-08-22T21:50:40.853+0200] {processor.py:161} INFO - Started process (PID=20897) to work on /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:50:40.856+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-08-22T21:50:40.857+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:40.856+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:50:40.863+0200] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-08-22T21:50:40.935+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:40.935+0200] {override.py:1769} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2024-08-22T21:50:40.946+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:40.946+0200] {override.py:1769} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2024-08-22T21:50:40.955+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:40.955+0200] {override.py:1769} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2024-08-22T21:50:40.955+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:40.955+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-22T21:50:40.966+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:40.966+0200] {dag.py:3055} INFO - Creating ORM DAG for tutorial_objectstorage
+[2024-08-22T21:50:40.966+0200] {logging_mixin.py:188} INFO - [2024-08-22T21:50:40.966+0200] {dag.py:3820} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-08-22T21:50:40.984+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.133 seconds

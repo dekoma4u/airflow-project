@@ -1,0 +1,14 @@
+[2024-08-22T23:56:56.241+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Ugoo-DAG.download manual__2024-08-22T21:56:54.597935+00:00 [queued]>
+[2024-08-22T23:56:56.245+0200] {taskinstance.py:1957} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Ugoo-DAG.download manual__2024-08-22T21:56:54.597935+00:00 [queued]>
+[2024-08-22T23:56:56.245+0200] {taskinstance.py:2171} INFO - Starting attempt 1 of 2
+[2024-08-22T23:56:56.258+0200] {taskinstance.py:2192} INFO - Executing <Task(PythonOperator): download> on 2024-08-22 21:56:54.597935+00:00
+[2024-08-22T23:56:56.261+0200] {standard_task_runner.py:60} INFO - Started process 54719 to run task
+[2024-08-22T23:56:56.263+0200] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'download', 'manual__2024-08-22T21:56:54.597935+00:00', '--job-id', '1159', '--raw', '--subdir', 'DAGS_FOLDER/datadownload.py', '--cfg-path', '/tmp/tmpskjjc68a']
+[2024-08-22T23:56:56.267+0200] {standard_task_runner.py:88} INFO - Job 1159: Subtask download
+[2024-08-22T23:56:56.339+0200] {task_command.py:423} INFO - Running <TaskInstance: Ugoo-DAG.download manual__2024-08-22T21:56:54.597935+00:00 [running]> on host Ugoo.
+[2024-08-22T23:56:56.398+0200] {taskinstance.py:2481} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='ugoo@ezekomas.com' AIRFLOW_CTX_DAG_OWNER='Ugoo Ezekoma' AIRFLOW_CTX_DAG_ID='Ugoo-DAG' AIRFLOW_CTX_TASK_ID='download' AIRFLOW_CTX_EXECUTION_DATE='2024-08-22T21:56:54.597935+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-08-22T21:56:54.597935+00:00'
+[2024-08-22T23:56:57.372+0200] {logging_mixin.py:188} INFO - File downloaded successfully: /home/ugoo/airflow/web-server-access-log.txt
+[2024-08-22T23:56:57.374+0200] {python.py:201} INFO - Done. Returned value was: None
+[2024-08-22T23:56:57.378+0200] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=Ugoo-DAG, task_id=download, execution_date=20240822T215654, start_date=20240822T215656, end_date=20240822T215657
+[2024-08-22T23:56:57.402+0200] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-08-22T23:56:57.414+0200] {taskinstance.py:3281} INFO - 1 downstream tasks scheduled from follow-on schedule check
