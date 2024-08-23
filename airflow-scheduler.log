@@ -14677,3 +14677,61 @@
 2024-08-23 13:46:48,863 INFO - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='git_push', run_id='scheduled__2024-08-23T10:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
 2024-08-23 13:46:48,864 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T10:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
 2024-08-23 13:46:48,870 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T10:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:46:52,269 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='git_push', run_id='scheduled__2024-08-23T10:00:00+00:00', try_number=1, map_index=-1)
+2024-08-23 13:46:52,272 INFO - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=git_push, run_id=scheduled__2024-08-23T10:00:00+00:00, map_index=-1, run_start_date=2024-08-23 11:46:50.021172+00:00, run_end_date=2024-08-23 11:46:51.854230+00:00, run_duration=1.833058, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1264, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-08-23 11:46:48.862970+00:00, queued_by_job_id=4, pid=118603
+2024-08-23 13:46:52,291 INFO - Setting next_dagrun for Ugoo-DAG to 2024-08-23T11:00:00+00:00, run_after=2024-08-23T12:00:00+00:00
+2024-08-23 13:46:52,307 INFO - Marking run <DagRun Ugoo-DAG @ 2024-08-23 10:00:00+00:00: scheduled__2024-08-23T10:00:00+00:00, state:running, queued_at: 2024-08-23 11:46:18.805926+00:00. externally triggered: False> successful
+2024-08-23 13:46:52,308 INFO - DagRun Finished: dag_id=Ugoo-DAG, execution_date=2024-08-23 10:00:00+00:00, run_id=scheduled__2024-08-23T10:00:00+00:00, run_start_date=2024-08-23 11:46:18.826932+00:00, run_end_date=2024-08-23 11:46:52.308119+00:00, run_duration=33.481187, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2024-08-23 10:00:00+00:00, data_interval_end=2024-08-23 11:00:00+00:00, dag_hash=d2d77a381d5c4d1de75eebb145ef57cf
+2024-08-23 13:46:52,309 INFO - Setting next_dagrun for Ugoo-DAG to 2024-08-23T11:00:00+00:00, run_after=2024-08-23T12:00:00+00:00
+2024-08-23 13:48:39,104 INFO - 1 tasks up for execution:
+	<TaskInstance: Ugoo-DAG.download scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:39,105 INFO - DAG Ugoo-DAG has 0/16 running and queued tasks
+2024-08-23 13:48:39,105 INFO - Setting the following tasks to queued state:
+	<TaskInstance: Ugoo-DAG.download scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:39,105 INFO - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='download', run_id='scheduled__2024-08-23T08:00:00+00:00', try_number=2, map_index=-1) to executor with priority 5 and queue default
+2024-08-23 13:48:39,105 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'download', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:48:39,113 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'download', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:48:41,344 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='download', run_id='scheduled__2024-08-23T08:00:00+00:00', try_number=2, map_index=-1)
+2024-08-23 13:48:41,347 INFO - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=download, run_id=scheduled__2024-08-23T08:00:00+00:00, map_index=-1, run_start_date=2024-08-23 11:48:40.153902+00:00, run_end_date=2024-08-23 11:48:41.020686+00:00, run_duration=0.866784, state=success, executor_state=success, try_number=2, max_tries=1, job_id=1265, pool=default_pool, queue=default, priority_weight=5, operator=PythonOperator, queued_dttm=2024-08-23 11:48:39.105335+00:00, queued_by_job_id=4, pid=119057
+2024-08-23 13:48:41,394 INFO - 1 tasks up for execution:
+	<TaskInstance: Ugoo-DAG.extraction_transform scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:41,394 INFO - DAG Ugoo-DAG has 0/16 running and queued tasks
+2024-08-23 13:48:41,394 INFO - Setting the following tasks to queued state:
+	<TaskInstance: Ugoo-DAG.extraction_transform scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:41,395 WARNING - cannot record scheduled_duration for task extraction_transform because previous state change time has not been saved
+2024-08-23 13:48:41,395 INFO - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='extraction_transform', run_id='scheduled__2024-08-23T08:00:00+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default
+2024-08-23 13:48:41,395 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'extraction_transform', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:48:41,403 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'extraction_transform', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:48:42,828 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='extraction_transform', run_id='scheduled__2024-08-23T08:00:00+00:00', try_number=1, map_index=-1)
+2024-08-23 13:48:42,831 INFO - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=extraction_transform, run_id=scheduled__2024-08-23T08:00:00+00:00, map_index=-1, run_start_date=2024-08-23 11:48:42.398478+00:00, run_end_date=2024-08-23 11:48:42.499161+00:00, run_duration=0.100683, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1266, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-08-23 11:48:41.395035+00:00, queued_by_job_id=4, pid=119068
+2024-08-23 13:48:42,864 INFO - 1 tasks up for execution:
+	<TaskInstance: Ugoo-DAG.load scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:42,864 INFO - DAG Ugoo-DAG has 0/16 running and queued tasks
+2024-08-23 13:48:42,864 INFO - Setting the following tasks to queued state:
+	<TaskInstance: Ugoo-DAG.load scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:42,865 WARNING - cannot record scheduled_duration for task load because previous state change time has not been saved
+2024-08-23 13:48:42,865 INFO - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='load', run_id='scheduled__2024-08-23T08:00:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default
+2024-08-23 13:48:42,865 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'load', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:48:42,872 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'load', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:48:44,378 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='load', run_id='scheduled__2024-08-23T08:00:00+00:00', try_number=1, map_index=-1)
+2024-08-23 13:48:44,381 INFO - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=load, run_id=scheduled__2024-08-23T08:00:00+00:00, map_index=-1, run_start_date=2024-08-23 11:48:43.900057+00:00, run_end_date=2024-08-23 11:48:44.012163+00:00, run_duration=0.112106, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1267, pool=default_pool, queue=default, priority_weight=3, operator=PythonOperator, queued_dttm=2024-08-23 11:48:42.865100+00:00, queued_by_job_id=4, pid=119076
+2024-08-23 13:48:44,422 INFO - 1 tasks up for execution:
+	<TaskInstance: Ugoo-DAG.upload scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:44,423 INFO - DAG Ugoo-DAG has 0/16 running and queued tasks
+2024-08-23 13:48:44,423 INFO - Setting the following tasks to queued state:
+	<TaskInstance: Ugoo-DAG.upload scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:44,424 WARNING - cannot record scheduled_duration for task upload because previous state change time has not been saved
+2024-08-23 13:48:44,424 INFO - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='upload', run_id='scheduled__2024-08-23T08:00:00+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2024-08-23 13:48:44,424 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'upload', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:48:44,430 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'upload', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:48:47,649 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='upload', run_id='scheduled__2024-08-23T08:00:00+00:00', try_number=1, map_index=-1)
+2024-08-23 13:48:47,652 INFO - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=upload, run_id=scheduled__2024-08-23T08:00:00+00:00, map_index=-1, run_start_date=2024-08-23 11:48:45.606586+00:00, run_end_date=2024-08-23 11:48:47.322933+00:00, run_duration=1.716347, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1268, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-08-23 11:48:44.423588+00:00, queued_by_job_id=4, pid=119085
+2024-08-23 13:48:47,696 INFO - 1 tasks up for execution:
+	<TaskInstance: Ugoo-DAG.git_push scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:47,696 INFO - DAG Ugoo-DAG has 0/16 running and queued tasks
+2024-08-23 13:48:47,696 INFO - Setting the following tasks to queued state:
+	<TaskInstance: Ugoo-DAG.git_push scheduled__2024-08-23T08:00:00+00:00 [scheduled]>
+2024-08-23 13:48:47,697 WARNING - cannot record scheduled_duration for task git_push because previous state change time has not been saved
+2024-08-23 13:48:47,698 INFO - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='git_push', run_id='scheduled__2024-08-23T08:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-08-23 13:48:47,698 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 13:48:47,703 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T08:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
