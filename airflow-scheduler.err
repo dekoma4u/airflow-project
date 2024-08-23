@@ -63,3 +63,77 @@ To https://github.com/dekoma4u/airflow-project.git
    4dce2c8..36b594b  master -> master
 To https://github.com/dekoma4u/airflow-project.git
    36b594b..433db76  master -> master
+To https://github.com/dekoma4u/airflow-project.git
+   433db76..0fb1d5a  master -> master
+[2024-08-23 11:06:41 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:72974)
+[2024-08-23 11:06:42 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:72977)
+[2024-08-23 11:06:42 +0200] [72974] [INFO] Worker exiting (pid: 72974)
+[2024-08-23 11:06:42 +0200] [72977] [INFO] Worker exiting (pid: 72977)
+[2024-08-23 11:06:42 +0200] [19696] [ERROR] Worker (pid:72974) exited with code 1
+[2024-08-23 11:06:42 +0200] [19696] [ERROR] Worker (pid:72977) exited with code 1
+[2024-08-23 11:06:42 +0200] [19696] [ERROR] Worker (pid:72977) exited with code 1.
+[2024-08-23 11:06:42 +0200] [19696] [ERROR] Worker (pid:72974) exited with code 1.
+[2024-08-23 11:06:42 +0200] [103159] [INFO] Booting worker with pid: 103159
+[2024-08-23 11:06:42 +0200] [103160] [INFO] Booting worker with pid: 103160
+[2024-08-23 11:12:20 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:103159)
+[2024-08-23 11:12:20 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:103160)
+[2024-08-23 11:12:20 +0200] [103160] [INFO] Worker exiting (pid: 103160)
+[2024-08-23 11:12:20 +0200] [103159] [INFO] Worker exiting (pid: 103159)
+[2024-08-23 11:12:20 +0200] [19696] [ERROR] Worker (pid:103159) exited with code 1
+[2024-08-23 11:12:20 +0200] [19696] [ERROR] Worker (pid:103159) exited with code 1.
+[2024-08-23 11:12:20 +0200] [19696] [ERROR] Worker (pid:103160) exited with code 1
+[2024-08-23 11:12:20 +0200] [19696] [ERROR] Worker (pid:103160) exited with code 1.
+[2024-08-23 11:12:20 +0200] [103181] [INFO] Booting worker with pid: 103181
+[2024-08-23 11:12:21 +0200] [103182] [INFO] Booting worker with pid: 103182
+[2024-08-23 12:16:29 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:103181)
+[2024-08-23 12:16:29 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:103182)
+[2024-08-23 12:16:29 +0200] [103181] [INFO] Worker exiting (pid: 103181)
+[2024-08-23 12:16:29 +0200] [103182] [INFO] Worker exiting (pid: 103182)
+[2024-08-23 12:16:29 +0200] [19696] [ERROR] Worker (pid:103181) exited with code 1
+[2024-08-23 12:16:29 +0200] [19696] [ERROR] Worker (pid:103181) exited with code 1.
+[2024-08-23 12:16:29 +0200] [19696] [ERROR] Worker (pid:103182) exited with code 1
+[2024-08-23 12:16:29 +0200] [19696] [ERROR] Worker (pid:103182) exited with code 1.
+[2024-08-23 12:16:29 +0200] [103201] [INFO] Booting worker with pid: 103201
+[2024-08-23 12:16:29 +0200] [103202] [INFO] Booting worker with pid: 103202
+[2024-08-23 13:43:38 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:103201)
+[2024-08-23 13:43:38 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:103202)
+[2024-08-23 13:43:38 +0200] [103202] [INFO] Worker exiting (pid: 103202)
+[2024-08-23 13:43:38 +0200] [19696] [ERROR] Worker (pid:103202) exited with code 1
+[2024-08-23 13:43:38 +0200] [19696] [ERROR] Worker (pid:103202) exited with code 1.
+[2024-08-23 13:43:39 +0200] [118346] [INFO] Booting worker with pid: 118346
+[2024-08-23 13:43:40 +0200] [19696] [ERROR] Worker (pid:103201) was sent SIGKILL! Perhaps out of memory?
+[2024-08-23 13:43:40 +0200] [118355] [INFO] Booting worker with pid: 118355
+Traceback (most recent call last):
+  File "/home/ugoo/airflow_env/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/__main__.py", line 57, in main
+    args.func(args)
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/utils/cli.py", line 114, in wrapper
+    return f(*args, **kwargs)
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 438, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 216, in _run_task_by_selected_method
+    return _run_task_by_local_task_job(args, ti)
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 278, in _run_task_by_local_task_job
+    ret = run_job(job=job_runner.job, execute_callable=job_runner._execute)
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/jobs/job.py", line 393, in run_job
+    return execute_job(job, execute_callable=execute_callable)
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/jobs/job.py", line 422, in execute_job
+    ret = execute_callable()
+  File "/home/ugoo/airflow_env/lib/python3.10/site-packages/airflow/jobs/local_task_job_runner.py", line 212, in _execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Time since last heartbeat(1503.96s) exceeded limit (300s).
+[2024-08-23 13:46:08 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:118346)
+[2024-08-23 13:46:08 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:118355)
+[2024-08-23 13:46:08 +0200] [118346] [INFO] Worker exiting (pid: 118346)
+[2024-08-23 13:46:08 +0200] [118355] [INFO] Worker exiting (pid: 118355)
+[2024-08-23 13:46:08 +0200] [19696] [ERROR] Worker (pid:118346) exited with code 1
+[2024-08-23 13:46:08 +0200] [19696] [ERROR] Worker (pid:118346) exited with code 1.
+[2024-08-23 13:46:08 +0200] [19696] [ERROR] Worker (pid:118355) exited with code 1
+[2024-08-23 13:46:08 +0200] [19696] [ERROR] Worker (pid:118355) exited with code 1.
+[2024-08-23 13:46:08 +0200] [118367] [INFO] Booting worker with pid: 118367
+[2024-08-23 13:46:08 +0200] [118369] [INFO] Booting worker with pid: 118369
