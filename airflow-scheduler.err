@@ -137,3 +137,5 @@ airflow.exceptions.AirflowException: Time since last heartbeat(1503.96s) exceede
 [2024-08-23 13:46:08 +0200] [19696] [ERROR] Worker (pid:118355) exited with code 1.
 [2024-08-23 13:46:08 +0200] [118367] [INFO] Booting worker with pid: 118367
 [2024-08-23 13:46:08 +0200] [118369] [INFO] Booting worker with pid: 118369
+To https://github.com/dekoma4u/airflow-project.git
+   0fb1d5a..c9e9eec  master -> master
