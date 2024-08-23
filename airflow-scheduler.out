@@ -18985,3 +18985,95 @@ Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T14
 Thank you and weldone
 Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T13:00:00+00:00/task_id=git_push permission to 509
 [[34m2024-08-23T23:12:49.379+0200[0m] {[34mtask_command.py:[0m423} INFO[0m - Running <TaskInstance: Ugoo-DAG.git_push scheduled__2024-08-23T13:00:00+00:00 [queued]> on host Ugoo.[0m
+[master 28005b8] Automated commit from Airflow from Ugoo
+ 11 files changed, 403 insertions(+)
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=manual__2024-08-23T20:58:26.573479+00:00/task_id=extraction_transform/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=manual__2024-08-23T21:05:39.387305+00:00/task_id=extraction_transform/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T13:00:00+00:00/task_id=git_push/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T14:00:00+00:00/task_id=upload/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T16:00:00+00:00/task_id=extraction_transform/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T17:00:00+00:00/task_id=download/attempt=1.log
+[[34m2024-08-23T23:12:52.160+0200[0m] {[34mscheduler_job_runner.py:[0m696} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='download', run_id='scheduled__2024-08-23T17:00:00+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-23T23:12:52.160+0200[0m] {[34mscheduler_job_runner.py:[0m696} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='extraction_transform', run_id='scheduled__2024-08-23T16:00:00+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-23T23:12:52.160+0200[0m] {[34mscheduler_job_runner.py:[0m696} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='extraction_transform', run_id='manual__2024-08-23T20:58:26.573479+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-23T23:12:52.160+0200[0m] {[34mscheduler_job_runner.py:[0m696} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='extraction_transform', run_id='manual__2024-08-23T21:05:39.387305+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-23T23:12:52.161+0200[0m] {[34mscheduler_job_runner.py:[0m696} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='upload', run_id='scheduled__2024-08-23T14:00:00+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-23T23:12:52.161+0200[0m] {[34mscheduler_job_runner.py:[0m696} INFO[0m - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='git_push', run_id='scheduled__2024-08-23T13:00:00+00:00', try_number=1, map_index=-1)[0m
+[[34m2024-08-23T23:12:52.169+0200[0m] {[34mscheduler_job_runner.py:[0m733} INFO[0m - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=download, run_id=scheduled__2024-08-23T17:00:00+00:00, map_index=-1, run_start_date=2024-08-23 21:12:34.538214+00:00, run_end_date=2024-08-23 21:12:35.836714+00:00, run_duration=1.2985, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1291, pool=default_pool, queue=default, priority_weight=5, operator=PythonOperator, queued_dttm=2024-08-23 21:12:32.988523+00:00, queued_by_job_id=4, pid=128238[0m
+[[34m2024-08-23T23:12:52.170+0200[0m] {[34mscheduler_job_runner.py:[0m733} INFO[0m - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=upload, run_id=scheduled__2024-08-23T14:00:00+00:00, map_index=-1, run_start_date=2024-08-23 21:12:44.918767+00:00, run_end_date=2024-08-23 21:12:47.195856+00:00, run_duration=2.277089, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1295, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-08-23 21:12:32.988523+00:00, queued_by_job_id=4, pid=128288[0m
+[[34m2024-08-23T23:12:52.171+0200[0m] {[34mscheduler_job_runner.py:[0m733} INFO[0m - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=extraction_transform, run_id=manual__2024-08-23T20:58:26.573479+00:00, map_index=-1, run_start_date=2024-08-23 21:12:40.550686+00:00, run_end_date=2024-08-23 21:12:40.682283+00:00, run_duration=0.131597, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1293, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-08-23 21:12:32.988523+00:00, queued_by_job_id=4, pid=128265[0m
+[[34m2024-08-23T23:12:52.171+0200[0m] {[34mscheduler_job_runner.py:[0m733} INFO[0m - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=git_push, run_id=scheduled__2024-08-23T13:00:00+00:00, map_index=-1, run_start_date=2024-08-23 21:12:49.420265+00:00, run_end_date=2024-08-23 21:12:51.647488+00:00, run_duration=2.227223, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1296, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-08-23 21:12:32.988523+00:00, queued_by_job_id=4, pid=128308[0m
+[[34m2024-08-23T23:12:52.171+0200[0m] {[34mscheduler_job_runner.py:[0m733} INFO[0m - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=extraction_transform, run_id=scheduled__2024-08-23T16:00:00+00:00, map_index=-1, run_start_date=2024-08-23 21:12:38.307626+00:00, run_end_date=2024-08-23 21:12:38.506451+00:00, run_duration=0.198825, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1292, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-08-23 21:12:32.988523+00:00, queued_by_job_id=4, pid=128254[0m
+[[34m2024-08-23T23:12:52.171+0200[0m] {[34mscheduler_job_runner.py:[0m733} INFO[0m - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=extraction_transform, run_id=manual__2024-08-23T21:05:39.387305+00:00, map_index=-1, run_start_date=2024-08-23 21:12:42.721523+00:00, run_end_date=2024-08-23 21:12:42.878359+00:00, run_duration=0.156836, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1294, pool=default_pool, queue=default, priority_weight=4, operator=PythonOperator, queued_dttm=2024-08-23 21:12:32.988523+00:00, queued_by_job_id=4, pid=128276[0m
+[[34m2024-08-23T23:12:52.427+0200[0m] {[34mdag.py:[0m3820} INFO[0m - Setting next_dagrun for Ugoo-DAG to 2024-08-23T19:00:00+00:00, run_after=2024-08-23T20:00:00+00:00[0m
+[[34m2024-08-23T23:12:52.510+0200[0m] {[34mdagrun.py:[0m732} INFO[0m - Marking run <DagRun Ugoo-DAG @ 2024-08-23 13:00:00+00:00: scheduled__2024-08-23T13:00:00+00:00, state:running, queued_at: 2024-08-23 16:54:36.796519+00:00. externally triggered: False> successful[0m
+[[34m2024-08-23T23:12:52.511+0200[0m] {[34mdagrun.py:[0m783} INFO[0m - DagRun Finished: dag_id=Ugoo-DAG, execution_date=2024-08-23 13:00:00+00:00, run_id=scheduled__2024-08-23T13:00:00+00:00, run_start_date=2024-08-23 16:54:36.815860+00:00, run_end_date=2024-08-23 21:12:52.511032+00:00, run_duration=15495.695172, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2024-08-23 13:00:00+00:00, data_interval_end=2024-08-23 14:00:00+00:00, dag_hash=d2d77a381d5c4d1de75eebb145ef57cf[0m
+[[34m2024-08-23T23:12:52.514+0200[0m] {[34mdag.py:[0m3820} INFO[0m - Setting next_dagrun for Ugoo-DAG to 2024-08-23T14:00:00+00:00, run_after=2024-08-23T15:00:00+00:00[0m
+[[34m2024-08-23T23:12:52.532+0200[0m] {[34mscheduler_job_runner.py:[0m424} INFO[0m - 6 tasks up for execution:
+	<TaskInstance: Ugoo-DAG.download scheduled__2024-08-23T18:00:00+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.extraction_transform scheduled__2024-08-23T17:00:00+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.load scheduled__2024-08-23T16:00:00+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.load manual__2024-08-23T20:58:26.573479+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.load manual__2024-08-23T21:05:39.387305+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.git_push scheduled__2024-08-23T14:00:00+00:00 [scheduled]>[0m
+[[34m2024-08-23T23:12:52.532+0200[0m] {[34mscheduler_job_runner.py:[0m487} INFO[0m - DAG Ugoo-DAG has 0/16 running and queued tasks[0m
+[[34m2024-08-23T23:12:52.532+0200[0m] {[34mscheduler_job_runner.py:[0m487} INFO[0m - DAG Ugoo-DAG has 1/16 running and queued tasks[0m
+[[34m2024-08-23T23:12:52.533+0200[0m] {[34mscheduler_job_runner.py:[0m487} INFO[0m - DAG Ugoo-DAG has 2/16 running and queued tasks[0m
+[[34m2024-08-23T23:12:52.533+0200[0m] {[34mscheduler_job_runner.py:[0m487} INFO[0m - DAG Ugoo-DAG has 3/16 running and queued tasks[0m
+[[34m2024-08-23T23:12:52.533+0200[0m] {[34mscheduler_job_runner.py:[0m487} INFO[0m - DAG Ugoo-DAG has 4/16 running and queued tasks[0m
+[[34m2024-08-23T23:12:52.533+0200[0m] {[34mscheduler_job_runner.py:[0m487} INFO[0m - DAG Ugoo-DAG has 5/16 running and queued tasks[0m
+[[34m2024-08-23T23:12:52.533+0200[0m] {[34mscheduler_job_runner.py:[0m603} INFO[0m - Setting the following tasks to queued state:
+	<TaskInstance: Ugoo-DAG.download scheduled__2024-08-23T18:00:00+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.extraction_transform scheduled__2024-08-23T17:00:00+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.load scheduled__2024-08-23T16:00:00+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.load manual__2024-08-23T20:58:26.573479+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.load manual__2024-08-23T21:05:39.387305+00:00 [scheduled]>
+	<TaskInstance: Ugoo-DAG.git_push scheduled__2024-08-23T14:00:00+00:00 [scheduled]>[0m
+[[34m2024-08-23T23:12:52.537+0200[0m] {[34mtaskinstance.py:[0m2261} WARNING[0m - cannot record scheduled_duration for task download because previous state change time has not been saved[0m
+[[34m2024-08-23T23:12:52.538+0200[0m] {[34mtaskinstance.py:[0m2261} WARNING[0m - cannot record scheduled_duration for task extraction_transform because previous state change time has not been saved[0m
+[[34m2024-08-23T23:12:52.538+0200[0m] {[34mtaskinstance.py:[0m2261} WARNING[0m - cannot record scheduled_duration for task load because previous state change time has not been saved[0m
+[[34m2024-08-23T23:12:52.538+0200[0m] {[34mtaskinstance.py:[0m2261} WARNING[0m - cannot record scheduled_duration for task load because previous state change time has not been saved[0m
+[[34m2024-08-23T23:12:52.538+0200[0m] {[34mtaskinstance.py:[0m2261} WARNING[0m - cannot record scheduled_duration for task load because previous state change time has not been saved[0m
+[[34m2024-08-23T23:12:52.539+0200[0m] {[34mtaskinstance.py:[0m2261} WARNING[0m - cannot record scheduled_duration for task git_push because previous state change time has not been saved[0m
+[[34m2024-08-23T23:12:52.540+0200[0m] {[34mscheduler_job_runner.py:[0m646} INFO[0m - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='download', run_id='scheduled__2024-08-23T18:00:00+00:00', try_number=1, map_index=-1) to executor with priority 5 and queue default[0m
+[[34m2024-08-23T23:12:52.540+0200[0m] {[34mbase_executor.py:[0m146} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'download', 'scheduled__2024-08-23T18:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:12:52.540+0200[0m] {[34mscheduler_job_runner.py:[0m646} INFO[0m - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='extraction_transform', run_id='scheduled__2024-08-23T17:00:00+00:00', try_number=1, map_index=-1) to executor with priority 4 and queue default[0m
+[[34m2024-08-23T23:12:52.540+0200[0m] {[34mbase_executor.py:[0m146} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'extraction_transform', 'scheduled__2024-08-23T17:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:12:52.541+0200[0m] {[34mscheduler_job_runner.py:[0m646} INFO[0m - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='load', run_id='scheduled__2024-08-23T16:00:00+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default[0m
+[[34m2024-08-23T23:12:52.541+0200[0m] {[34mbase_executor.py:[0m146} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'load', 'scheduled__2024-08-23T16:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:12:52.541+0200[0m] {[34mscheduler_job_runner.py:[0m646} INFO[0m - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='load', run_id='manual__2024-08-23T20:58:26.573479+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default[0m
+[[34m2024-08-23T23:12:52.541+0200[0m] {[34mbase_executor.py:[0m146} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'load', 'manual__2024-08-23T20:58:26.573479+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:12:52.541+0200[0m] {[34mscheduler_job_runner.py:[0m646} INFO[0m - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='load', run_id='manual__2024-08-23T21:05:39.387305+00:00', try_number=1, map_index=-1) to executor with priority 3 and queue default[0m
+[[34m2024-08-23T23:12:52.541+0200[0m] {[34mbase_executor.py:[0m146} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'load', 'manual__2024-08-23T21:05:39.387305+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:12:52.542+0200[0m] {[34mscheduler_job_runner.py:[0m646} INFO[0m - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='git_push', run_id='scheduled__2024-08-23T14:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default[0m
+[[34m2024-08-23T23:12:52.542+0200[0m] {[34mbase_executor.py:[0m146} INFO[0m - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T14:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:12:52.549+0200[0m] {[34msequential_executor.py:[0m73} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'download', 'scheduled__2024-08-23T18:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:12:54.191+0200[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /home/ugoo/airflow/dags/datadownload.py[0m
+Thank you and weldone
+Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T18:00:00+00:00/task_id=download permission to 509
+[[34m2024-08-23T23:12:54.407+0200[0m] {[34mtask_command.py:[0m423} INFO[0m - Running <TaskInstance: Ugoo-DAG.download scheduled__2024-08-23T18:00:00+00:00 [queued]> on host Ugoo.[0m
+[[34m2024-08-23T23:12:55.914+0200[0m] {[34msequential_executor.py:[0m73} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'extraction_transform', 'scheduled__2024-08-23T17:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:12:57.190+0200[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /home/ugoo/airflow/dags/datadownload.py[0m
+Thank you and weldone
+Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T17:00:00+00:00/task_id=extraction_transform permission to 509
+[[34m2024-08-23T23:12:57.372+0200[0m] {[34mtask_command.py:[0m423} INFO[0m - Running <TaskInstance: Ugoo-DAG.extraction_transform scheduled__2024-08-23T17:00:00+00:00 [queued]> on host Ugoo.[0m
+[[34m2024-08-23T23:12:57.997+0200[0m] {[34msequential_executor.py:[0m73} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'load', 'scheduled__2024-08-23T16:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:12:59.238+0200[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /home/ugoo/airflow/dags/datadownload.py[0m
+Thank you and weldone
+Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T16:00:00+00:00/task_id=load permission to 509
+[[34m2024-08-23T23:12:59.422+0200[0m] {[34mtask_command.py:[0m423} INFO[0m - Running <TaskInstance: Ugoo-DAG.load scheduled__2024-08-23T16:00:00+00:00 [queued]> on host Ugoo.[0m
+[[34m2024-08-23T23:13:00.047+0200[0m] {[34msequential_executor.py:[0m73} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'load', 'manual__2024-08-23T20:58:26.573479+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:13:01.217+0200[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /home/ugoo/airflow/dags/datadownload.py[0m
+Thank you and weldone
+Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=manual__2024-08-23T20:58:26.573479+00:00/task_id=load permission to 509
+[[34m2024-08-23T23:13:01.403+0200[0m] {[34mtask_command.py:[0m423} INFO[0m - Running <TaskInstance: Ugoo-DAG.load manual__2024-08-23T20:58:26.573479+00:00 [queued]> on host Ugoo.[0m
+[[34m2024-08-23T23:13:02.147+0200[0m] {[34msequential_executor.py:[0m73} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'load', 'manual__2024-08-23T21:05:39.387305+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:13:03.318+0200[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /home/ugoo/airflow/dags/datadownload.py[0m
+Thank you and weldone
+Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=manual__2024-08-23T21:05:39.387305+00:00/task_id=load permission to 509
+[[34m2024-08-23T23:13:03.505+0200[0m] {[34mtask_command.py:[0m423} INFO[0m - Running <TaskInstance: Ugoo-DAG.load manual__2024-08-23T21:05:39.387305+00:00 [queued]> on host Ugoo.[0m
+[[34m2024-08-23T23:13:04.135+0200[0m] {[34msequential_executor.py:[0m73} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T14:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:13:05.307+0200[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /home/ugoo/airflow/dags/datadownload.py[0m
+Thank you and weldone
+Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T14:00:00+00:00/task_id=git_push permission to 509
+[[34m2024-08-23T23:13:05.475+0200[0m] {[34mtask_command.py:[0m423} INFO[0m - Running <TaskInstance: Ugoo-DAG.git_push scheduled__2024-08-23T14:00:00+00:00 [queued]> on host Ugoo.[0m

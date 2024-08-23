@@ -2382,3 +2382,11 @@
 [2024-08-23T23:12:10.579+0200] {logging_mixin.py:188} INFO - [2024-08-23T23:12:10.578+0200] {dag.py:3033} INFO - Sync 1 DAGs
 [2024-08-23T23:12:10.592+0200] {logging_mixin.py:188} INFO - [2024-08-23T23:12:10.592+0200] {dag.py:3820} INFO - Setting next_dagrun for Ugoo-DAG to 2024-08-23T16:00:00+00:00, run_after=2024-08-23T17:00:00+00:00
 [2024-08-23T23:12:10.616+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow/dags/datadownload.py took 0.085 seconds
+[2024-08-23T23:12:52.224+0200] {processor.py:161} INFO - Started process (PID=128336) to work on /home/ugoo/airflow/dags/datadownload.py
+[2024-08-23T23:12:52.226+0200] {processor.py:830} INFO - Processing file /home/ugoo/airflow/dags/datadownload.py for tasks to queue
+[2024-08-23T23:12:52.227+0200] {logging_mixin.py:188} INFO - [2024-08-23T23:12:52.227+0200] {dagbag.py:538} INFO - Filling up the DagBag from /home/ugoo/airflow/dags/datadownload.py
+[2024-08-23T23:12:52.256+0200] {logging_mixin.py:188} INFO - Thank you and weldone
+[2024-08-23T23:12:52.257+0200] {processor.py:840} INFO - DAG(s) 'Ugoo-DAG' retrieved from /home/ugoo/airflow/dags/datadownload.py
+[2024-08-23T23:12:52.286+0200] {logging_mixin.py:188} INFO - [2024-08-23T23:12:52.285+0200] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-08-23T23:12:52.306+0200] {logging_mixin.py:188} INFO - [2024-08-23T23:12:52.306+0200] {dag.py:3820} INFO - Setting next_dagrun for Ugoo-DAG to 2024-08-23T18:00:00+00:00, run_after=2024-08-23T19:00:00+00:00
+[2024-08-23T23:12:52.328+0200] {processor.py:183} INFO - Processing /home/ugoo/airflow/dags/datadownload.py took 0.108 seconds
