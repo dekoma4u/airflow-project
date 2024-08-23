@@ -1,3 +1,4 @@
 2024-08-22 21:50:12,681 ERROR - [0 / 0] Some workers seem to have died and gunicorn did not restart them as expected
 2024-08-22 22:10:42,253 INFO - Received signal: 15. Closing gunicorn.
 2024-08-22 22:32:42,076 INFO - Received signal: 15. Closing gunicorn.
+2024-08-23 18:54:29,361 ERROR - [3 / 3] Some workers seem to have died and gunicorn did not restart them as expected

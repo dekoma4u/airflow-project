@@ -145,3 +145,61 @@ To https://github.com/dekoma4u/airflow-project.git
    13431f5..5bd9014  master -> master
 To https://github.com/dekoma4u/airflow-project.git
    5bd9014..a39eb21  master -> master
+To https://github.com/dekoma4u/airflow-project.git
+   a39eb21..e37d4b1  master -> master
+[2024-08-23 18:52:17 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:118367)
+[2024-08-23 18:52:17 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:118369)
+[2024-08-23 18:52:17 +0200] [118369] [INFO] Worker exiting (pid: 118369)
+[2024-08-23 18:52:17 +0200] [118367] [INFO] Worker exiting (pid: 118367)
+[2024-08-23 18:52:17 +0200] [19696] [ERROR] Worker (pid:118369) exited with code 1
+[2024-08-23 18:52:17 +0200] [19696] [ERROR] Worker (pid:118369) exited with code 1.
+[2024-08-23 18:52:17 +0200] [19696] [ERROR] Worker (pid:118367) exited with code 1
+[2024-08-23 18:52:18 +0200] [19696] [ERROR] Worker (pid:118367) exited with code 1.
+[2024-08-23 18:52:18 +0200] [123849] [INFO] Booting worker with pid: 123849
+[2024-08-23 18:52:18 +0200] [123850] [INFO] Booting worker with pid: 123850
+[2024-08-23 18:54:27 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:123849)
+[2024-08-23 18:54:27 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:123850)
+[2024-08-23 18:54:27 +0200] [123849] [INFO] Worker exiting (pid: 123849)
+[2024-08-23 18:54:27 +0200] [123850] [INFO] Worker exiting (pid: 123850)
+[2024-08-23 18:54:27 +0200] [19696] [ERROR] Worker (pid:123850) exited with code 1
+[2024-08-23 18:54:27 +0200] [19696] [ERROR] Worker (pid:123850) exited with code 1.
+[2024-08-23 18:54:27 +0200] [19696] [ERROR] Worker (pid:123849) exited with code 1
+[2024-08-23 18:54:27 +0200] [19696] [ERROR] Worker (pid:123849) exited with code 1.
+[2024-08-23 18:54:27 +0200] [123884] [INFO] Booting worker with pid: 123884
+[2024-08-23 18:54:27 +0200] [123885] [INFO] Booting worker with pid: 123885
+[2024-08-23 19:51:31 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:123884)
+[2024-08-23 19:51:31 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:123885)
+[2024-08-23 19:51:31 +0200] [123885] [INFO] Worker exiting (pid: 123885)
+[2024-08-23 19:51:31 +0200] [19696] [ERROR] Worker (pid:123885) exited with code 1
+[2024-08-23 19:51:31 +0200] [19696] [ERROR] Worker (pid:123885) exited with code 1.
+[2024-08-23 19:51:31 +0200] [123999] [INFO] Booting worker with pid: 123999
+[2024-08-23 19:51:31 +0200] [19696] [ERROR] Worker (pid:123884) was sent SIGKILL! Perhaps out of memory?
+[2024-08-23 19:51:31 +0200] [124000] [INFO] Booting worker with pid: 124000
+[2024-08-23 22:23:12 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:123999)
+[2024-08-23 22:23:12 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:124000)
+[2024-08-23 22:23:12 +0200] [123999] [INFO] Worker exiting (pid: 123999)
+[2024-08-23 22:23:12 +0200] [124000] [INFO] Worker exiting (pid: 124000)
+[2024-08-23 22:23:12 +0200] [19696] [ERROR] Worker (pid:123999) exited with code 1
+[2024-08-23 22:23:12 +0200] [19696] [ERROR] Worker (pid:123999) exited with code 1.
+[2024-08-23 22:23:12 +0200] [19696] [ERROR] Worker (pid:124000) exited with code 1
+[2024-08-23 22:23:12 +0200] [19696] [ERROR] Worker (pid:124000) exited with code 1.
+[2024-08-23 22:23:12 +0200] [124022] [INFO] Booting worker with pid: 124022
+[2024-08-23 22:23:13 +0200] [124024] [INFO] Booting worker with pid: 124024
+[2024-08-23 22:24:59 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:124022)
+[2024-08-23 22:24:59 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:124024)
+[2024-08-23 22:24:59 +0200] [124022] [INFO] Worker exiting (pid: 124022)
+[2024-08-23 22:24:59 +0200] [124024] [INFO] Worker exiting (pid: 124024)
+[2024-08-23 22:24:59 +0200] [19696] [ERROR] Worker (pid:124022) exited with code 1
+[2024-08-23 22:24:59 +0200] [19696] [ERROR] Worker (pid:124022) exited with code 1.
+[2024-08-23 22:24:59 +0200] [19696] [ERROR] Worker (pid:124024) exited with code 1
+[2024-08-23 22:24:59 +0200] [19696] [ERROR] Worker (pid:124024) exited with code 1.
+[2024-08-23 22:24:59 +0200] [124047] [INFO] Booting worker with pid: 124047
+[2024-08-23 22:24:59 +0200] [124048] [INFO] Booting worker with pid: 124048
+[2024-08-23 22:55:45 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:124047)
+[2024-08-23 22:55:45 +0200] [19696] [CRITICAL] WORKER TIMEOUT (pid:124048)
+[2024-08-23 22:55:45 +0200] [124047] [INFO] Worker exiting (pid: 124047)
+[2024-08-23 22:55:45 +0200] [19696] [ERROR] Worker (pid:124047) exited with code 1
+[2024-08-23 22:55:45 +0200] [19696] [ERROR] Worker (pid:124047) exited with code 1.
+[2024-08-23 22:55:45 +0200] [124145] [INFO] Booting worker with pid: 124145
+[2024-08-23 22:55:45 +0200] [19696] [ERROR] Worker (pid:124048) was sent SIGKILL! Perhaps out of memory?
+[2024-08-23 22:55:45 +0200] [124147] [INFO] Booting worker with pid: 124147
