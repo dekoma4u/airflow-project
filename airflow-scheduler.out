@@ -19227,3 +19227,19 @@ Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T17
 Thank you and weldone
 Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T16:00:00+00:00/task_id=git_push permission to 509
 [[34m2024-08-23T23:13:36.679+0200[0m] {[34mtask_command.py:[0m423} INFO[0m - Running <TaskInstance: Ugoo-DAG.git_push scheduled__2024-08-23T16:00:00+00:00 [queued]> on host Ugoo.[0m
+[master 875f66b] Automated commit from Airflow from Ugoo
+ 16 files changed, 1020 insertions(+)
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=manual__2024-08-23T20:58:26.573479+00:00/task_id=upload/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=manual__2024-08-23T21:05:39.387305+00:00/task_id=upload/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T16:00:00+00:00/task_id=git_push/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T16:00:00+00:00/task_id=upload/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T17:00:00+00:00/task_id=load/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T17:00:00+00:00/task_id=upload/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T18:00:00+00:00/task_id=extraction_transform/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T18:00:00+00:00/task_id=load/attempt=1.log
+ create mode 100644 logs/dag_id=Ugoo-DAG/run_id=scheduled__2024-08-23T19:00:00+00:00/task_id=download/attempt=1.log
+[[34m2024-08-23T23:13:39.783+0200[0m] {[34msequential_executor.py:[0m73} INFO[0m - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'manual__2024-08-23T20:58:26.573479+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py'][0m
+[[34m2024-08-23T23:13:41.357+0200[0m] {[34mdagbag.py:[0m538} INFO[0m - Filling up the DagBag from /home/ugoo/airflow/dags/datadownload.py[0m
+Thank you and weldone
+Changing /home/ugoo/airflow/logs/dag_id=Ugoo-DAG/run_id=manual__2024-08-23T20:58:26.573479+00:00/task_id=git_push permission to 509
+[[34m2024-08-23T23:13:41.610+0200[0m] {[34mtask_command.py:[0m423} INFO[0m - Running <TaskInstance: Ugoo-DAG.git_push manual__2024-08-23T20:58:26.573479+00:00 [queued]> on host Ugoo.[0m
