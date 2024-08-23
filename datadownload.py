@@ -167,7 +167,7 @@ def git_push():
         subprocess.run(['git', 'add', '.'], check=True)
         
         # Commit changes with a message
-        subprocess.run(['git', 'commit', '-m', 'Automated commit from Airflow'], check=True)
+        subprocess.run(['git', 'commit', '-m', 'Automated commit from Airflow from Ugoo'], check=True)
         
         # Push changes to the remote repository
         subprocess.run(['git', 'push', 'origin', 'master'], check=True)
