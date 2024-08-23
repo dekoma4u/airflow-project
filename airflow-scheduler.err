@@ -203,3 +203,5 @@ To https://github.com/dekoma4u/airflow-project.git
 [2024-08-23 22:55:45 +0200] [124145] [INFO] Booting worker with pid: 124145
 [2024-08-23 22:55:45 +0200] [19696] [ERROR] Worker (pid:124048) was sent SIGKILL! Perhaps out of memory?
 [2024-08-23 22:55:45 +0200] [124147] [INFO] Booting worker with pid: 124147
+To https://github.com/dekoma4u/airflow-project.git
+   e37d4b1..ab200f2  master -> master
