@@ -14283,3 +14283,20 @@
 2024-08-23 08:21:21,199 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T04:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
 2024-08-23 08:21:21,207 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'upload', 'scheduled__2024-08-23T05:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
 2024-08-23 08:21:24,669 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T04:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 08:21:28,226 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='upload', run_id='scheduled__2024-08-23T05:00:00+00:00', try_number=1, map_index=-1)
+2024-08-23 08:21:28,226 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='Ugoo-DAG', task_id='git_push', run_id='scheduled__2024-08-23T04:00:00+00:00', try_number=1, map_index=-1)
+2024-08-23 08:21:28,230 INFO - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=git_push, run_id=scheduled__2024-08-23T04:00:00+00:00, map_index=-1, run_start_date=2024-08-23 06:21:25.866897+00:00, run_end_date=2024-08-23 06:21:27.817498+00:00, run_duration=1.950601, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1232, pool=default_pool, queue=default, priority_weight=1, operator=PythonOperator, queued_dttm=2024-08-23 06:21:21.198852+00:00, queued_by_job_id=4, pid=73602
+2024-08-23 08:21:28,230 INFO - TaskInstance Finished: dag_id=Ugoo-DAG, task_id=upload, run_id=scheduled__2024-08-23T05:00:00+00:00, map_index=-1, run_start_date=2024-08-23 06:21:22.607147+00:00, run_end_date=2024-08-23 06:21:24.313459+00:00, run_duration=1.706312, state=success, executor_state=success, try_number=1, max_tries=1, job_id=1231, pool=default_pool, queue=default, priority_weight=2, operator=PythonOperator, queued_dttm=2024-08-23 06:21:21.198852+00:00, queued_by_job_id=4, pid=73587
+2024-08-23 08:21:28,260 INFO - Setting next_dagrun for Ugoo-DAG to 2024-08-23T05:00:00+00:00, run_after=2024-08-23T06:00:00+00:00
+2024-08-23 08:21:28,277 INFO - Marking run <DagRun Ugoo-DAG @ 2024-08-23 04:00:00+00:00: scheduled__2024-08-23T04:00:00+00:00, state:running, queued_at: 2024-08-23 06:20:30.178773+00:00. externally triggered: False> successful
+2024-08-23 08:21:28,277 INFO - DagRun Finished: dag_id=Ugoo-DAG, execution_date=2024-08-23 04:00:00+00:00, run_id=scheduled__2024-08-23T04:00:00+00:00, run_start_date=2024-08-23 06:20:30.202231+00:00, run_end_date=2024-08-23 06:21:28.277860+00:00, run_duration=58.075629, state=success, external_trigger=False, run_type=scheduled, data_interval_start=2024-08-23 04:00:00+00:00, data_interval_end=2024-08-23 05:00:00+00:00, dag_hash=d2d77a381d5c4d1de75eebb145ef57cf
+2024-08-23 08:21:28,279 INFO - Setting next_dagrun for Ugoo-DAG to 2024-08-23T05:00:00+00:00, run_after=2024-08-23T06:00:00+00:00
+2024-08-23 08:21:28,289 INFO - 1 tasks up for execution:
+	<TaskInstance: Ugoo-DAG.git_push scheduled__2024-08-23T05:00:00+00:00 [scheduled]>
+2024-08-23 08:21:28,290 INFO - DAG Ugoo-DAG has 0/16 running and queued tasks
+2024-08-23 08:21:28,290 INFO - Setting the following tasks to queued state:
+	<TaskInstance: Ugoo-DAG.git_push scheduled__2024-08-23T05:00:00+00:00 [scheduled]>
+2024-08-23 08:21:28,291 WARNING - cannot record scheduled_duration for task git_push because previous state change time has not been saved
+2024-08-23 08:21:28,291 INFO - Sending TaskInstanceKey(dag_id='Ugoo-DAG', task_id='git_push', run_id='scheduled__2024-08-23T05:00:00+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2024-08-23 08:21:28,291 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T05:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 08:21:28,297 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T05:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
