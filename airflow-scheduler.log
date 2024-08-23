@@ -15186,3 +15186,4 @@
 2024-08-23 23:13:30,854 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'upload', 'scheduled__2024-08-23T17:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
 2024-08-23 23:13:35,209 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'scheduled__2024-08-23T16:00:00+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
 2024-08-23 23:13:39,783 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'manual__2024-08-23T20:58:26.573479+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
+2024-08-23 23:13:44,093 INFO - Executing command: ['airflow', 'tasks', 'run', 'Ugoo-DAG', 'git_push', 'manual__2024-08-23T21:05:39.387305+00:00', '--local', '--subdir', 'DAGS_FOLDER/datadownload.py']
